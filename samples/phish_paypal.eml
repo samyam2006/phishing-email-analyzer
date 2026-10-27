@@ -1,0 +1,44 @@
+Return-Path: <bounce@mailer-xq7.ru>
+Received: from mailer-xq7.ru (unknown [185.220.101.44])
+	by mx.example.edu with ESMTP id 4F2A1; Mon, 26 Oct 2026 09:14:02 -0400
+Authentication-Results: mx.example.edu;
+	spf=fail smtp.mailfrom=mailer-xq7.ru;
+	dkim=none;
+	dmarc=fail header.from=paypa1-security.com
+From: "PayPal Security" <service@paypa1-security.com>
+Reply-To: support-desk@protonmail.com
+To: student@example.edu
+Subject: Urgent: Your account has been suspended
+Date: Mon, 26 Oct 2026 09:13:55 -0400
+Message-ID: <a81f2@mailer-xq7.ru>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="BOUNDARY1"
+
+--BOUNDARY1
+Content-Type: text/plain; charset="utf-8"
+
+Dear Customer,
+
+We noticed unusual activity on your account. Your account has been suspended.
+To restore access, verify your account within 24 hours or it will be closed.
+
+Click here: http://185.220.101.44/paypal/login.php
+
+Please confirm your identity and enter your password and card number.
+
+PayPal Security Team
+
+--BOUNDARY1
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear Customer,</p>
+<p>We noticed <b>unusual activity</b> on your account. Your account has been suspended.</p>
+<p>To restore access, verify your account within 24 hours or it will be closed.</p>
+<p><a href="http://185.220.101.44/paypal/login.php">https://www.paypal.com/signin</a></p>
+<p>Or use this backup link: <a href="https://bit.ly/3xPpL0g">Restore access</a></p>
+<p>Please confirm your identity and enter your password and card number.</p>
+<p>PayPal Security Team</p>
+</body></html>
+
+--BOUNDARY1--

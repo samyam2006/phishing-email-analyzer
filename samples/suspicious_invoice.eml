@@ -1,0 +1,42 @@
+Return-Path: <billing@invoices-portal.xyz>
+Authentication-Results: mx.example.edu; spf=softfail
+ smtp.mailfrom=invoices-portal.xyz; dkim=pass header.d=invoices-portal.xyz;
+ dmarc=none
+From: "Accounts Payable" <billing@invoices-portal.xyz>
+To: student@example.edu
+Subject: Overdue payment - invoice attached
+Date: Mon, 26 Oct 2026 10:30:00 -0400
+Message-ID: <inv-88231@invoices-portal.xyz>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============3593057695179443760=="
+
+--===============3593057695179443760==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Your invoice #88231 is overdue. Please review the invoice attached and make p=
+ayment immediately to avoid late fees.
+
+Portal: https://invoices-portal.xyz/pay
+
+Accounts Payable
+
+--===============3593057695179443760==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_88231.pdf.exe"
+MIME-Version: 1.0
+
+TVoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+
+--===============3593057695179443760==--

@@ -1,0 +1,36 @@
+Return-Path: <news@github.com>
+Received: from out-21.smtp.github.com (out-21.smtp.github.com [192.30.252.204])
+	by mx.example.edu with ESMTPS id 9C3B2; Mon, 26 Oct 2026 08:02:11 -0400
+Authentication-Results: mx.example.edu;
+	spf=pass smtp.mailfrom=github.com;
+	dkim=pass header.d=github.com;
+	dmarc=pass header.from=github.com
+From: "GitHub" <news@github.com>
+To: student@example.edu
+Subject: Your October GitHub digest
+Date: Mon, 26 Oct 2026 08:02:00 -0400
+Message-ID: <digest-2026-10@github.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="B2"
+
+--B2
+Content-Type: text/plain; charset="utf-8"
+
+Hi there,
+
+Here are the most popular repositories this month.
+Read the full digest: https://github.com/explore
+
+Manage email preferences: https://github.com/settings/notifications
+
+--B2
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Hi there,</p>
+<p>Here are the most popular repositories this month.</p>
+<p><a href="https://github.com/explore">Read the full digest</a></p>
+<p><a href="https://github.com/settings/notifications">github.com/settings/notifications</a></p>
+</body></html>
+
+--B2--
