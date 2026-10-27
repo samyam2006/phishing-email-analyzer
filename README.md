@@ -2,7 +2,7 @@
 
 Python script that looks at a saved email (.eml) and tells you if it's probably phishing and why.
 
-I wanted something that does the same first checks you'd do by hand when someone forwards a sketchy email to the help desk: are SPF/DKIM/DMARC passing, does the sender actually match who they say they are, where do the links really go, is the attachment something dangerous. No extra libraries needed, just Python 3.10+.
+I wanted something that does the same first checks you'd do by hand when someone forwards a sketchy email to the help desk: are SPF/DKIM/DMARC passing, does the sender actually match who they say they are, where do the links really go, is the attachment something dangerous. 
 
 ```
 python analyzer.py samples/phish_paypal.eml
